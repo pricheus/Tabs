@@ -1,0 +1,94 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-size: 1rem;
+background-color:  hsl(210, 36%, 96%);
+color: #102a42;
+
+}
+
+
+/*main*/
+main{
+    padding: 5ch 3.5ch;
+
+}
+
+img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 6px;
+    margin: 2ch 0;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.4ch;
+}
+
+span{
+    margin: 3ch 0;
+    text-align: center;
+}
+
+/*btnContainer*/
+.btnContainer{
+display: flex;
+justify-content: space-between;
+}
+
+button{
+    font-size: large;
+    text-transform:capitalize ;
+    width: 38%;
+    cursor: pointer;
+    background-color: #dae2ec;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5ch;
+    
+}
+
+button:hover{
+    background-color: hsl(205, 100%, 96%);
+    color: #49a6e9;
+}
+
+/*aboutConatainer*/
+
+.aboutConatainer{
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+article{
+    padding:3ch 2ch ;
+    display: none;   
+}
+
+h4{
+    text-transform: capitalize;
+    margin-bottom: 2ch;
+}
+
+p, span{
+    color: #617D98;
+}
+
+
+        /*active class*/
+        .active{
+            display: block;
+            background-color: #fff;
+        }
+      
